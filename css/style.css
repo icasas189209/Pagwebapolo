@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto:wght@100;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    /* background-size: 900px; */
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+}
+
+body {
+    font-family: 'Poppins', Roboto;
+    background-color: white;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #6285c4;
+    width: 110%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background-color: #d9e0ea;
+}
+
+/* AQUI EMPIEZAN LOS Hs */
+
+h1 {
+    font-size: 4rem;
+    padding-left: 100px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 2rem;
+    padding-left: 50px;
+}
+
+h3 {
+    font-family: 'Poppins', Roboto;
+    font-size: 3rem;
+    padding-left: 200px;
+}
+
+/* CONTENIDO DE IMAGENES */
+
+.i1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: aquamarine;
+/*     position: relative;
+    margin-left: 50%;
+    width: 600px; */
+}
+
+.i2{
+    position: relative;
+    margin-left: 30%;
+    width: 600px;
+}
+
+.i3{
+    position: relative;
+    margin-left: 8%;
+    width: 400px;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: row;
+}
+
+.i4{
+    position: relative;
+    margin-left: 30%;
+    width: 500px;
+}
+/* background-image: url(../img/fondo1.png); */
+
+/* INICIO DE DISEÑO FUNCIONAMIENTO DE LA PLATAFORMA */
+.FDP1 p {
+    font-size: 1.3rem;
+}
+
+.FDP2 li{
+    list-style: None;
+    font-size: 2rem;
+}
+
+.FDP2 p {
+    font-size: 1.3rem;
+}
+
+.P1 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.P2 {
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+/* INICIO DE DISEÑO VENTAJA DE NUESTROS PRODUCTOS */
+
+
+
+.VNP1 li {
+    list-style: None;
+    font-size: 2rem;
+}
+
+.VNP2 P {
+    font-size: 1.3rem;
+}
+
+.VNP2 li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.VNP2 { 
+    padding: 20px;
+    flex-direction: column;
+    margin-left: 50%;
+
+}
+
+/* INICIO NUESTROS PRODUCTOS */
+
+.NP {
+    list-style: None;
+    font-size: 2rem;
+    /* justify-content: space-between; */
+    align-items: center;
+    display: flex;
+    height: 62.5%;
+    justify-content: center;
+}
+
+.NP1 li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.productos {
+    display: inline-flex;
+    padding: 5px;
+    margin: 2%; 
+    flex-flow: row wrap;
+    
+}
+
+/* INICIO DE COMPADOR */
+.CP li {
+    list-style: none;
+    font-size: 2rem;
+} 
+
+/* INICIO DE TIPOS DE CLIENTES */
+.TC li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.TC P {
+    list-style: none;
+    font-size: 2rem;
+}
+
+/* INICIO DE NUESTRA HISTORIA */
+
+.NH li ul {
+    list-style: none;
+    font-size: 2rem;
+}
+
+/* INICIO PREGUNTAS */
+.PF ul {
+    list-style: none;
+    font-size: 2rem;
+}
