@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logopequeapolo.png">
+    <title>APOLOdx</title>
+
+    <!--link referencia a estilo del menu-->
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logoapolo.png" alt="logo apolodx" width="100">
+            </a>
+        </div>
+        <nav>
+            <ul Class="menu">
+                <li><a href="../views/productos.html">Productos</a></li>
+                <li><a href="../views/nosotros.html">Nosotros</a></li>
+                <li><a href="../views/plataforma.html">Plataforma</a></li>
+                <li><a href="../views/contacto.html">Contacto</a></li>
+                <li><a href="../views/FAQ.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Nuestros Contacto</h1>
+
+        <!--Inicio formulario formulario-->
+        <section>
+            <form action="enviocontacto.php">
+                <fieldset>
+                    <div class="contacto">
+                        <img src="../img/pantalla1.jpg" alt="pantalla apolodx" width="450">
+                    </div>
+                    <form action="/formulario" method="GET">
+                        <h1>CONTACTO</h1>
+                        <label for="nombre">Nombre</label>
+                        <input value="Nombre" type="text" id="nombre" placeholder="poner nombre" />
+        
+                        <label for="apellido">Apellidos</label>
+                        <input value="Poner apellidos" type="text" id="apellido" placeholder="poner apellido" />
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="mail@xxxx.com">
+                        <br>
+        
+                        <label for="telefono">Telefono de contacto</label>
+                        <input type="tel" id="telefono" placeholder="XX-XXX-XXX">
+                        <br>
+        
+                        <label for="">Tipo de producto</label>
+                        <select name="Tipodeproducto" id="">
+            <option value="Arrendamiento">Arrendamiento</option>
+            <option valie="Factoraje">Factoraje</option>
+            <option value="PYME">PYME</option>
+            <option value="Lineas Personales">Lineas Personales</option>
+            <option value="Lineas Revolventes">Lineas Revolventes</option>
+            <option value="Credito hipotecario">Crédito Hipotecario</option>
+            <option value="Credito simple">Crédito Simple</option>
+            <option value="Agroindustria">Agroindustria</option>
+            <option value="Credito puente">Crédito Puente</option>
+            <option value="Nomina">Nomina</option>
+            <option value="Inversion">Inversiones</option>
+            <option value="telecomunicaciones">Telecomunicaciónes</option>
+                        </select>
+                        <br>
+                        <label for="comentarios"> Comentarios </label>
+                        <br>
+                        <textarea cols="50" rows="10" id="comentarios" placeholder="Agregar comentarios"
+                            name="Comentarios">Contestaremos todas tus dudas</textarea>
+                        <br>
+        
+                        <button type="borrar formulario">Cancelar</button>
+                        <button type="Enviar">Enviar</button>
+                </fieldset>
+        </section>
+        </form>
+
+
+    <!--Empieza el footer-->
+    <section>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logoapolo.png" alt="logo apolodx" width="100">
+            </a>
+        </div>
+        <h2>
+            DATOS DE LA EMPRESA
+        </h2>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laudantium iure esse doloribus
+        <br>
+        tempore recusandae eius dolores? Itaque, laboriosam dolorem a velit consequatur recusandae debitis odio non!
+        Facilis, minima quidem.
+        <br>
+        <br>
+        <li>
+            DATOS DE PRODUCTOS
+        </li>
+        <li>
+            DATOS DE NOSOTROS
+        </li>
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14929.109763864728!2d-103.37028165!3d20.6989555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae3a55454671%3A0xa0746487dcb9b9d!2sGlorieta%20Col%C3%B3n!5e0!3m2!1ses!2smx!4v1653402663154!5m2!1ses!2smx"
+            width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        <ul Class="menu">
+            <li><a href="../views/productos.html">Productos</a></li>
+            <li><a href="../views/nosotros.html">Nosotros</a></li>
+            <li><a href="../views/plataforma.html">Plataforma</a></li>
+            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a href="../views/FAQ.html">FAQ</a></li>
+            <li><a href="#terminos y condiciones">Terminos y condiciones</a></li>
+            <li><a href="#Aviso de privacidad">Aviso de privacidad</a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
